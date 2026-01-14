@@ -2592,10 +2592,12 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		border-radius: 5px;
 	}
 
 		.image img {
 			display: block;
+			border-radius: 5px;
 		}
 
 		.image.left, .image.right {
@@ -2630,6 +2632,8 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				border-radius: 5px;
+				
 			}
 
 		.image.main {
@@ -2644,6 +2648,7 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+				
 			}
 
 		@media screen and (max-width: 736px) {
@@ -2667,6 +2672,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.2s ease-out;
 			-ms-transition: -ms-transform 0.2s ease-out;
 			transition: transform 0.2s ease-out;
+			
 		}
 
 		a.image:hover img {
@@ -2674,6 +2680,7 @@ input, select, textarea {
 			-webkit-transform: scale(1.05);
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
+			
 		}
 
 /* Actions */
